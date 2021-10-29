@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.main-box{
+    width: 800px;
+    height: 500px;
+    margin: auto;
+    margin-top: 60px;
+    background-color: white;
+    position: relative;
+}
+
+.face{
+    width: 400px;
+    height: 350px;
+    background-color: grey;
+    border-radius: 50%;
+    position: absolute;
+    top: 75px;
+    left: 200px;
+}
+
+.eye1{
+    width: 53px;
+    height: 50px;
+    border: 10px solid black;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 100px;
+    left: 80px;
+}
+
+.eye2{
+    width: 53px;
+    height: 50px;
+    border: 10px solid black;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 100px;
+    right: 80px;
+}
+
+.ear1{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    top: 90px;
+    left: 170px;
+}
+
+.ear2{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    top: 90px;
+    right: 170px;
+}
+
+.form{
+    background-color: cadetblue;
+    width: 200px;
+    height: 180px;
+    border-radius: 50px;
+    position: absolute;
+    top: 150px;
+    left: 100px;
+}
+
+img{
+    position: absolute;
+    top: 5px;
+    left: 30%;
+}
+
+.box1{
+    width: 160px;
+    height: 30px;
+    position: absolute;
+    top: 65px;
+    left: 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.box2{
+    width: 160px;
+    height: 30px;
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.box3{
+    width: 80px;
+    height: 30px;
+    position: absolute;
+    top: 135px;
+    left: 57px;
+    background-color: white;
+    border-radius: 5px;
+}

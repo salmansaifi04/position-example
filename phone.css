@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.phone{
+    background-image: url(phone.jpeg);
+    width: 300px;
+    height: 550px;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 30px;
+    position: relative;
+}
+
+.box-top{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    border-radius: 30px 30px 0 0;
+}
+
+.cir1{
+    width: 12px;
+    height: 12px;
+    border: 1px solid white;
+    border-radius: 50%;
+    position: absolute;
+    left: 10%;
+    top: 15px;
+}
+.cir2{
+    width: 12px;
+    height: 12px;
+    border: 1px solid white;
+    border-radius: 50%;
+    position: absolute;
+    left: 70%;
+    top: 15px;
+}
+.cir3{
+    width: 12px;
+    height: 12px;
+    border: 1px solid white;
+    border-radius: 50%;
+    position: absolute;
+    left: 78%;
+    top: 15px;
+}
+.cir4{
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    left: 85%;
+    top: 14px;
+}
+.rec{
+    width: 70px;
+    height: 5px;
+    background-color: white;
+    border-radius: 20px;
+    position: absolute;
+    left: 35%;
+    top: 18px;
+}
+
+p{
+    color: white;
+    position: absolute;
+    left: 33.5%;
+    top: 25px;
+}
+
+.box-bottom{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    border-radius: 0 0 30px 30px;
+    position: absolute;
+    top: 92%;
+}
+
+.btn1{
+    width: 25px;
+    height: 15px;
+    border: 2px solid white;
+    position: absolute;
+    top: 10px;
+    left: 10%;
+}
+.btn2{
+    width: 50px;
+    height: 15px;
+    border: 2px solid white;
+    border-radius: 10px;
+    position: absolute;
+    top: 12px;
+    left: 40%;
+}
+.btn3{
+    width: 25px;
+    height: 15px;
+    border: 2px solid white;
+    position: absolute;
+    top: 10px;
+    left: 80%;
+}
+
+.side-btn1{
+    background-color: black;
+    height: 40px;
+    width: 5px;
+    position: absolute;
+    top: 120px;
+    left: -4px;
+    border-radius: 5px 0 0 5px;
+}
+.side-btn2{
+    background-color: black;
+    height: 40px;
+    width: 5px;
+    position: absolute;
+    top: 170px;
+    left: -4px;
+    border-radius: 5px 0 0 5px;
+}
+.side-btn3{
+    background-color: black;
+    height: 55px;
+    width: 5px;
+    position: absolute;
+    top: 128px;
+    left: 299px;
+    border-radius: 0 5px 5px 0;
+}
